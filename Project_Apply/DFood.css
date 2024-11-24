@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#site-header {
+  background-color: #c2ad8f;
+  height: 160px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-header {
+  /* display: inline; */
+  /* justify-items: center; */
+}
+
+#logo {
+  float: left;
+}
+
+#list_icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+  line-height: 110px;
+  gap: 30px;
+}
