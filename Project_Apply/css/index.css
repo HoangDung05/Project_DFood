@@ -8,6 +8,8 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* --- sub-header style start --- */
+
 .sub-header {
   height: 50px;
   background-color: #fff;
@@ -92,7 +94,9 @@ ul li {
   box-shadow: 0 4px 0px rgba(98, 46, 19, 0.5);
   border-radius: 100px;
 }
+/* --- .sub-header style end --- */
 
+/* --- header style start --- */
 header {
   display: block;
 }
@@ -209,4 +213,57 @@ a {
 
 .header-area .main-nav .nav li a:hover {
   color: #f35525;
+}
+
+/* --- header style end --- */
+
+.main-banner {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-banner .item {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 220px 20% 320px 20px;
+  margin-top: 0%;
+}
+
+.main-banner .item-1 {
+  background-image: url(../image/banner-01.jpg);
+}
+
+.main-banner .item-2 {
+  background-image: url(../image/banner-02.jpg);
+}
+
+.main-banner .item-3 {
+  background-image: url(../image/banner-03.jpg);
+}
+
+.main-banner .item span.category {
+  background-color: #fff;
+  color: #1e1e1e;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 6px 15px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.main-banner .item span.category em {
+  font-style: normal;
+  color: #f35525;
+}
+
+.main-banner .item h2 {
+  font-size: 62px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 72px;
+  width: 50%;
+  margin-bottom: 0px;
 }
